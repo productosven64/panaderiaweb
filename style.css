@@ -1,0 +1,262 @@
+.hero {
+    background-image: url('imagenes/portada.png'); 
+    background-size: cover;
+    background-position: center;
+    color: rgba(242, 239, 239, 0.919);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-top: 0px;
+}
+
+.hero p {
+    font-size: 1.8em;
+    margin-top: 50px;
+}
+
+.hero button {
+    background-color: #090702;
+    color: #e0a32b;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.hero button:hover {
+    background-color: #e0a32b;
+}
+catalogo
+.catalogo {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.catalogo h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #0c6e0799;
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 250px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.producto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.producto h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.producto p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.producto .precio {
+    font-weight: bold;
+    color: #333;
+}
+
+.producto button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+beneficios {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.beneficios h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #0c6e0799;
+    text-align: center;
+}
+
+.beneficios ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.beneficios li {
+    font-size: 1.1em;
+    margin: 10px;
+    padding: 30px;
+    background-color: #043816; /* Color de fondo de las tarjetas */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra para dar profundidad */
+}
+
+.beneficios li b {
+    color: #f2f3f0;
+    font-size: 1.2em;
+}
+.beneficios li  {
+    color: #dbee47ea;
+    font-size: 1.2em;
+}   
+.entrega {
+    padding: 40px 0;
+    text-align: left;
+}
+
+.entrega h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #0c6e0799;
+    text-align: center;
+}
+.entrega p {
+    font-size:2em;
+    margin-bottom: 25px;
+    color:rgb(8, 8, 8) ;
+}
+
+.entrega ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.entrega li {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #ef4d0c;
+    display: flex;
+    align-items: center; /* Alinear el texto y el icono verticalmente */
+}
+
+.entrega li i {
+    font-size: 2em; /* Tamaño del icono */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+    color: #8137e9; /* Color de los iconos (puedes cambiarlo) */
+}
+.cta {
+    text-align: center;
+    padding: 50px 0;
+}
+.cta h2{
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #0c6e0799;
+    text-align: center;
+} 
+.cta p{
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #080b0899;
+    text-align: cen
+}
+.cta button {
+    background-color: #063504; /* Color de fondo del botón */
+    color: rgb(8, 9, 9); /* Color del texto del botón */
+    padding: 50px 200px;
+    border: none;
+    font-size:200%;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.cta button:hover {
+    background-color: #98f09c; /* Color de fondo al pasar el ratón */
+}
+.testimonios {
+    padding: 40px 40px;
+    text-align: center;
+}
+
+.testimonios h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #0c6e0799;
+    text-align: center;
+}
+
+.testimonios-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Cuadrícula adaptable */
+    gap: 20px;
+}
+
+.testimonio-card {
+    border: 1px solid #d42a2a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.testimonio-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.cita {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #0f100f99;
+    text-align: center;
+}
+.autor {
+    font-size: 1.6em;
+    margin-bottom: 30px;
+    color: #481d0299;
+    text-align: center;
+}
+footer {
+    background-color: #eae61a;
+    color: rgb(5, 4, 4);
+    padding: 10px 10px;
+    text-align: center;
+}
+
+footer p {
+    font-size:1em;
+    margin-bottom: 0px;
+}
+
+footer a {
+    color: rgb(9, 9, 9);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
